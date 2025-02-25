@@ -16,41 +16,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A LITTLE <span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+            hi there 👋 my name is abhay. i am currently a deployed engineer at 
+            <b className="purple"> codeium</b>, and graduated from 
+            <b className="purple"> uc berkeley </b> in may 2022 with a degree in cs & a minor in city planning.
+            <br />
+            <br />
+            i am passionate about 
+            <i>
+              <b className="purple"> public transportation & planning 🏙, using and improving data 📊, and maps 🗺 </b>
+            </i> 
+            (amongst many other interests).
+            <br />
+            <br />
+            i was previously a solution engineer at 
+            <b className="purple"> c3 ai </b> for over two years, working on building enterprise ai applications in 
+            <i>
+              <b className="purple"> energy & manufacturing</b>
+            </i>
+            . alongside my work in college, i have had the opportunity to intern at 
+            <i>
+              <b className="purple"> accenture labs, appdynamics, and american express</b>
+            </i>
+            .
+            <br />
+            <br />
+            if you have any questions about any of my projects or want to reach out, my email is 
+            <b className="purple"> [abhaykaggarwal] @ [gmail] . [com] </b>. my pronouns are 
+            <i>
+              <b className="purple"> he/him</b>
+            </i>
+            !
+          </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/abhaykaggarwal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/abhaykaggarwal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/abhayka/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +94,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
@@ -104,7 +103,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
