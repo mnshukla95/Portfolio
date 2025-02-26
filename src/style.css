@@ -741,3 +741,64 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Contact */
+/* --------- */
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.contact-form {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(23, 20, 43, 0.8);
+  box-shadow: 0 4px 8px rgba(119, 53, 136, 0.3);
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.contact-form .form-control {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border: 1px solid rgba(200, 137, 230, 0.4) !important;
+  border-radius: 5px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(200, 137, 230, 0.8) !important;
+  box-shadow: 0 0 0 0.2rem rgba(200, 137, 230, 0.25) !important;
+}
+
+.contact-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.contact-form .btn-primary {
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #7b49a7 !important;
+  border-color: #7b49a7 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(119, 53, 136, 0.4);
+}
+
+.success-message {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #00ff95;
+  text-align: center;
+}
